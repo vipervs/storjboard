@@ -1,4 +1,4 @@
-StorjBoard Script
+StorjBoard Script(beta)
 =========
 
 Usages
