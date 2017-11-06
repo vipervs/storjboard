@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 {
   "name": "storjboard",
-  "version": "0.0.8",
+  "version": "0.0.11",
   "description": "StorjBoard Uploader",
   "main": "script_storjboard.js",
-  "bin": {    
-    "storjboard": "script_storjboard.js"  
+  "bin": {
+    "storjboard": "script_storjboard.js"
   },
   "scripts": {
     "test": "mocha"
@@ -30,34 +29,3 @@
   },
   "homepage": "https://github.com/Aksimant/storjboard#readme"
 }
-=======
-{
-  "name": "storjboard",
-  "version": "0.0.3",
-  "description": "StorjBoard Uploader",
-  "main": "script_storjboard.js",
-  "dependencies": {
-    "dnode": "^1.2.2",
-    "request": "^2.83.0",
-    "storjshare-daemon": "^5.2.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "mocha",
-    "start": "node script_storjboard.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Aksimant/storjboard"
-  },
-  "keywords": [
-    "storjboard"
-  ],
-  "author": "StorjBoard",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Aksimant/storjboard/issues"
-  },
-  "homepage": "https://github.com/Aksimant/storjboard#readme"
-}
->>>>>>> d862c53246b3c1b6738134731622e9d7288129c8
