@@ -14,7 +14,7 @@ function requestInfo() {
                     'storage':share['config']['storageAllocation'],'meta': share['meta']});
             }
             var dataSend = {data: sendJsonData};
-            console.log(timeNow + ' - Sending Data to StorjBoaed.pro server');
+            console.log(timeNow + ' - Sending Data to StorjBoard.pro server');
 
             request.post({
                  url: "https://storjboard.pro/api/report/",
@@ -26,11 +26,11 @@ function requestInfo() {
             }, function(error, response, body){
                try {
                    if (response.body === 'OK') {
-                       console.log(timeNow + ' - Data to StorjBoaed.pro server sent successfull');
+                       console.log(timeNow + ' - Data to StorjBoard.pro server sent successfull');
                        console.log(timeNow + ' - Next update will be in 5 min')
                        daemon.end();
                    } else if (response.body === 'BAD') {
-                       console.log(timeNow + ' - Fault to send data to StorjBoaed.pro check if you and all nodes to you Board');
+                       console.log(timeNow + ' - Fault to send data to StorjBoard.pro check if you and all nodes to you Board');
                        daemon.end();
                    } else {
                        console.log(timeNow + error);
